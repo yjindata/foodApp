@@ -1,14 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url(//db.onlinewebfonts.com/c/9c0afb6841117a1e2256b49b040cb768?family=Neue+Haas+Unica);
 body {
+  background-color: #FFF;
+  padding: 0px;
   margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #343a40;
+  
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+h2, h4, p, ul, li {
+  font-family: 'Neue Haas Unica', sans-serif;
+  color: #454649;
+  font-size: 1.2em;
+
+
+}
+h1 {
+  font-family: 'Neue Haas Unica', sans-serif;
+  color: #454649;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+ 
+  background-color:  #2C59CF;
+  
+  display: block;
+  padding: 0;
+  position: fixed;
+  padding-left: 0px;
+  top: 0;
+  width: 100%;
+  padding-top: 0px;
+  box-sizing: border-box;
+  z-index: 1;
+  box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.1);
+  font-size: 1em;
+
+
+ 
+}
+ul.header li a {
+  
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0rem;
+  display: inline-block;
+}
+
+  @media screen and (max-width: 768px) {
+    ul.header li a {
+      font-size: 0.8rem;
+      display: inline;
+    }
+  }
+
+.content {
+  background-color: #F6F3F0;
+  padding-top: 1rem;
+  padding: 1.3rem;
+  margin-top: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    margin-top: 180px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+
+.content a {
+  color:#454649;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+
+.content a:hover {
+  color:#454649;
+  text-decoration: none;
+
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
 }
